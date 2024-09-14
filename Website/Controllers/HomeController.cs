@@ -26,5 +26,11 @@ namespace Website.Controllers
 
             return View();
         }
+        public ActionResult UnderConstruction()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

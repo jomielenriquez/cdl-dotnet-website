@@ -143,6 +143,24 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\cdlstyles.css" />
+    <Content Include="Content\Images\Background.png" />
+    <Content Include="Content\Images\Building.jpg" />
+    <Content Include="Content\Images\CDLBanner.png" />
+    <Content Include="Content\Images\CDLBanner2.png" />
+    <Content Include="Content\Images\CDLBannerLighter.png" />
+    <Content Include="Content\Images\CDLBanner_White.png" />
+    <Content Include="Content\Images\CDL_Final_LOGO.png" />
+    <Content Include="Content\Images\CDL_Logo.png" />
+    <Content Include="Content\Images\CDL_Logo2.png" />
+    <Content Include="Content\Images\favicon.ico" />
+    <Content Include="Content\Images\footer.png" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\logo1.png" />
+    <Content Include="Content\Images\logo2.png" />
+    <Content Include="Content\Images\logo3.png" />
+    <Content Include="Content\Images\plain_logo.png" />
+    <Content Include="Content\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -177,6 +195,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\UnderConstruction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -212,6 +231,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
