@@ -362,3 +362,4 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Website/ConnectionString.config
+/Website/bin/app.publish/ConnectionString.config
