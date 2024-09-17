@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Website.Models;
 
 namespace Website.Controllers
 {
@@ -11,7 +12,13 @@ namespace Website.Controllers
         // GET: Admin
         public ActionResult Index()
         {
-            return View();
+            PortalDBEntities conn = new PortalDBEntities();
+            Sample test = new Sample()
+            {
+                message = conn.TBL_ADMIN.Select(x => x.USERNAME).FirstOrDefault()
+            };
+
+            return View(test);
         }
     }
 }

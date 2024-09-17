@@ -141,6 +141,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PortalDB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Sample.cs" />
     <Compile Include="Models\TBL_ADMIN.cs">
       <DependentUpon>PortalDB.tt</DependentUpon>
     </Compile>
